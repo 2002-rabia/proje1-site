@@ -1,0 +1,274 @@
+
+div.oturum{
+
+    float: right;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style:outset;
+
+    border-color: rgb(231, 7, 74) ;
+    border-top-left-radius: 3%;
+    padding: 10px 20px 10px 20px; ;
+    outline-style:outset;
+
+}
+input [type="text"]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input [type="submit"]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 4px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#e67e22;
+    box-shadow:6px 6px 5px rgba(0,0,0,.5);
+  }
+
+
+
+div.arama{
+    margin-top: 2%;
+margin-right: 20%;
+    float: center;
+}
+input[type="search"]{
+    float:center;
+    margin-top: 15px;
+    margin-left: 27%;
+    padding: 20px 30px 10px 30px;
+}
+
+
+div.tarif{
+ 
+    border: 15px;
+    border-color: black;
+    border-style:groove;
+    border-left-style:double;
+    
+    border-right-style:double;
+ 
+    
+background-color: rgb(231, 7, 74);
+shape-outside: margin-box;
+margin-top: 5%;
+padding-top: 2%;
+padding-bottom: 2%;
+
+}
+div.logo {
+    display: flex;
+    color: #e67e22;
+    padding:0 0px 0px 0;
+    border: 0px solid #ccc;
+    float: left;
+    filter:brightness( 60%);
+    filter: sepia(20%);
+    }
+
+div.img img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+
+div.alt{ 
+
+    display: flex;
+    text-decoration: double;
+    text-align: center;
+    color:rgb(232, 77, 11);
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;
+font-style: italic;
+
+}
+
+
+
+
+nav{
+  
+    margin-top: 0%;
+   margin-inline-start: 7%;
+   margin-inline-end: 7%;
+margin-bottom: 0%;
+   text-align: center;
+    background-color: white;
+    line-height: 1cm;
+   text-align: center;
+   
+}
+
+nav a{
+    font-family:Lucida Handwriting;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-inline-start: 3%;
+    margin-inline-end: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+    box-shadow: 3px 2px 2px 3px rgb(232, 77, 11);
+    transition:0.3s; 
+   
+}
+nav a:hover{
+background-color:#d35400;
+transform: scale( 1.2);
+
+}
+div.resim img{
+    border-radius: 10cm;
+    margin-top:3% ;
+    margin-bottom: 3%;
+    
+}
+.resim img:hover {
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3); 
+     transform: scale(1.3); 
+   }
+    
+div.modal {
+    position:-webkit-sticky;
+   float: right;
+   border-style:solid;
+   margin-right: 2%;
+   
+
+}
+div.modal img {
+    border-radius: 0cm;
+}
+
+.modal img:hover {
+     transform: none; 
+
+   }
+    
+.ul{
+    
+    list-style-type: none;
+    float: right;
+    list-style:none ;
+}
+
+
+.modal-content.home li {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+.modal-content li {
+    position: relative;
+    padding: 10px 7px;
+    border-top: 2px solid #e6ecf2;
+}
+.modal-content ::after li {
+    display: list-item;
+
+}
+.modal2{
+    float: right;
+  color: #d35400;
+    width: 200px; 
+    border: 1px solid #000000;
+    word-wrap:break-word;
+    
+}
+#modal3{
+    line-height: 40px;
+    border:none;
+}
+.modal2  a{
+color: #d35400;
+text-decoration: none;
+}
+
+
+.video{
+    position:static;
+    margin-left: 3%;
+margin-top: 0%;
+margin-right: 5%;
+}
+h2 {
+ 
+    margin-top: 0%;
+    margin-left:20% ;
+    
+}
+
+.video{
+    float:left;
+    margin-top: 0%;
+   margin-right: 0%;
+   list-style-type: none;
+
+}
+
+.controlss{
+    list-style-type: none;
+    margin-left: 3%;
+    padding:5%;
+    margin-top: 6%;
+}
+
+#video{
+
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.ilgi{
+    margin-left: 5%;
+
+}
+
+#ilgi1{
+    list-style-type: none;
+
+}
+#ilgi1 img{
+    margin-left: 2cm;
+    margin-top: 4%;
+   
+}
+.ilgi2{
+
+    list-style-type: none;
+    margin-top: 3%;
+}
+.cook{
+
+    float:left ;
+}
+.sugar
+{
+text-align: center; 
+}
+#ilgi4{
+    margin-left: 10%;
+}
